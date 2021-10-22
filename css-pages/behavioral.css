@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(202, 104, 74);
+    font-family: 'Bungee', cursive;
+    
+}
+
+img {
+    width: 400px;
+    height: 500px;
+    outline: 2px solid black;
+}
+
+.header {
+    font-family: 'Fredoka One', cursive;
+    height: 18vh;
+    width: 99.14vw;
+    background-color: rgb(255, 155, 97);
+    color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header a {
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diagram {
+    display: flex;
+}
+
+.diagram-image {
+    padding: 30px;
+    box-shadow: none;
+}
+
+.diagram-des a {
+    color: purple;
+    font-size: 1.1em;
+    font-family: unset;
+}
+
+.footer {
+    font-family: 'Fredoka One', cursive;
+    height: 25vh;
+    width: 99.14vw;
+    background-color: rgb(255, 155, 97);
+    color: rgb(36, 36, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.footer img {
+    outline: unset;
+    height: 50px;
+    width: 25px;
+}
